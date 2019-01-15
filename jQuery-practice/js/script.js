@@ -30,14 +30,13 @@ $(document).ready(function() {
   function middle(sentence) {
     let midIndex = Math.floor(sentence.length/2);
     let mid = sentence[midIndex];
-    return mid + sentence + letters;
+    return mid + sentence + letters
   }
   alert(middle(sentence));
 
   var middle = middle(sentence);
 
   function backwards(words) {
-    debugger;
     let splitSent = words.split('');
     let reverse = splitSent.reverse();
     let final = reverse.join('');
